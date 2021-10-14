@@ -28,17 +28,24 @@
   --text-color-gray-1: #242424;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> e9f84a7c793c21afc0584de36fb7800d02d9b731
 .background {
   background: var(--bg-color);
 }
 .body {
+<<<<<<< HEAD
   width: 100%;
+=======
+>>>>>>> e9f84a7c793c21afc0584de36fb7800d02d9b731
   display: flex;
   flex-direction: row;
-  overflow: hidden;
-  position: relative;
+  overflow-y: scroll;
+  /* position: relative; */
   margin-top: 0%;
+  height: 78vh !important; 
 }
 .toggle{
   display: none;
@@ -46,6 +53,14 @@
 .hrLine{
   display: none;
 }
+<<<<<<< HEAD
+=======
+
+.notifications {
+  height: 100%;
+  width: 200%;
+}
+>>>>>>> e9f84a7c793c21afc0584de36fb7800d02d9b731
 /* THE SECTION OF THE CONTENT */
 .notifyContent {
   max-width: 100%;
@@ -69,7 +84,11 @@
 .titleLarge {
   font-family: Lato;
   font-size: 15px;
+<<<<<<< HEAD
   font-weight: 500;
+=======
+  font-weight: bold;
+>>>>>>> e9f84a7c793c21afc0584de36fb7800d02d9b731
   color: var(--text-color-gray-1);
   padding: 0%;
   line-height: 21px;
@@ -82,7 +101,11 @@
 .titleSmall {
   font-family: Lato;
   font-size: 15px;
+<<<<<<< HEAD
   font-weight: 500;
+=======
+  font-weight: bold;
+>>>>>>> e9f84a7c793c21afc0584de36fb7800d02d9b731
   color: var(--text-color-gray-1);
   padding: 0%;
   line-height: 21px;
@@ -102,7 +125,11 @@
   margin-right: 9px;
 }
 
+<<<<<<< HEAD
 .allPreferences{
+=======
+.allPreferences {
+>>>>>>> e9f84a7c793c21afc0584de36fb7800d02d9b731
   width: 100%;
 }
 
@@ -177,10 +204,21 @@
   align-self: center;
 }
 
+<<<<<<< HEAD
 input[type="checkbox"] {
   margin-right: 19px;
   border-color: #00b87c;
   background-color: #00b87c;
+=======
+input[type="radio"] {
+  clear: none;
+  margin: 4px 0 0 -1px;
+}
+
+.check {
+  margin-left: 4.5px;
+  accent-color: #00b87c;
+>>>>>>> e9f84a7c793c21afc0584de36fb7800d02d9b731
 }
 
 .markbox {
@@ -195,7 +233,14 @@ input[type="checkbox"] {
   text-align: left;
 }
 .markbox label {
+<<<<<<< HEAD
   padding: 10px 5px 3px;
+=======
+  padding: 0px -15em 0px 5px;
+  clear: none;
+  margin-left: 26px;
+  margin-top: -20px;
+>>>>>>> e9f84a7c793c21afc0584de36fb7800d02d9b731
   justify-content: center;
   align-items: center;
   align-self: center;
@@ -238,7 +283,7 @@ input[type="checkbox"] {
   border: 1px solid #e5e5e5;
   outline: none;
   resize: none;
-  margin-top: 10px;
+  margin-top: 9.5px;
   overflow: hidden;
   height: 98px;
   width: 520px;
@@ -324,7 +369,11 @@ input[type="checkbox"] {
   padding: 5px 5px 3px;
   margin-bottom: 16px;
   color: var(--text-color-gray);
+<<<<<<< HEAD
   border: 1px solid #e5e5e5;
+=======
+  border: 1px solid rgba(0, 184, 124, 0.5);
+>>>>>>> e9f84a7c793c21afc0584de36fb7800d02d9b731
   outline: none;
   font-style: normal;
   font-weight: 400;
